@@ -1,4 +1,10 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+header {
+    background-image: url('https://via.placeholder.com/1920x400'); /* Placeholder for a hero image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
 }
