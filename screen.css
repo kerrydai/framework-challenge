@@ -47,35 +47,11 @@ main {
     padding: 20px;
 }
 
-.sauces {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sauces article {
-    text-align: center;
-    width: 30%;
-}
-
-.sauces img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.main-heading, .section-heading {
-    text-align: center;
-}
-
 .main-heading {
+    text-align: center;
     font-size: 2em;
     margin-top: 20px;
-}
-
-.section-heading {
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #d9534f; /* Example color for distinction */
+    color: red; 
 }
 
 .sauces {
