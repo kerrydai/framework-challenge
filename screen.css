@@ -47,24 +47,21 @@ main {
     padding: 20px;
 }
 
-.main-heading {
-    text-align: center;
-    font-size: 2em;
-    margin-top: 20px;
-    color: red; 
-}
-
 .sauces {
-    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
 }
 
-img {
-    max-width: 100%;
+.sauces article {
+    text-align: center;
+    width: 30%;
+}
+
+.sauces img {
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    border-radius: 8px;
 }
-
 
 @media (max-width: 768px) {
     .sauces {
