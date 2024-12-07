@@ -63,6 +63,33 @@ main {
     border-radius: 8px;
 }
 
+.main-heading, .section-heading {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.section-heading {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #d9534f; /* Example color for distinction */
+}
+
+.sauces {
+    margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 @media (max-width: 768px) {
     .sauces {
         flex-direction: column;
